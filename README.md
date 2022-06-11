@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/Rafiena/new-project/edit/g
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### My Badge [https://github.com/Rafiena/new-project/blob/main/Rafiena-2021.stl]
+### My Badg
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
