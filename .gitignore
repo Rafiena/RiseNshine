@@ -1,2 +1,7 @@
-# checkout 
+# Checkout 
  ./site
+# Dependencies 
+ ./src
+# Dist
+ ./page
+
