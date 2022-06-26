@@ -1,7 +1,3 @@
-# Checkout 
- ./site
-# Dependencies 
- ./src
-# Dist
- ./page
+node modules
+.Ds_Store
 
