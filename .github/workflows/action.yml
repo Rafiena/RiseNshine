@@ -1,7 +1,7 @@
 
 - name: CI
-jobs:
-  build:
+jobs: push
+  branch: [main]
 
 - steps:
     runs-on: Ubuntu-latest 
