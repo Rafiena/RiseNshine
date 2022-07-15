@@ -1,5 +1,5 @@
 
-- name: Jekyll 
+- name: CI
 jobs:
   build:
 
