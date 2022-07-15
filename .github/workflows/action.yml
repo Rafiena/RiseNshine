@@ -1,12 +1,13 @@
 
-
+- name: Jekyll 
 jobs:
   build:
-    runs-on: Ubuntu-latest 
-    steps:
-    - uses: actions/checkout@v3
 
-    - name: CI
+- steps:
+    runs-on: Ubuntu-latest 
+   
+
+   
       uses: actions/setup-node@v3
       with:
         node-version: ${{ JEKYLL_VERSION }}
@@ -19,13 +20,7 @@ jobs:
         name: node.js
         path: variable 
 
-  deploy:
-    permissions: read
-      contents: none
-    runs-on: Ubuntu latest 
-    needs: build
-    environment: variable 
-      name:
+  
       job: ${{GITHUB_TOKEN}}
 
     steps:
