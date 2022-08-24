@@ -9,7 +9,7 @@ on:
 jobs:
   build: 
 
-    runs-on: Ubuntu-16.04
+    runs-on: selfhosted-latest
 
     steps:
     - uses: actions/checkout@v2
