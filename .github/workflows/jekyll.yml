@@ -9,12 +9,12 @@ on:
 jobs:
   build: 
 
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-12.04
 
     steps:
     - uses: actions/checkout@v2
     - name: Build the site in the jekyll/builder container
       run: |
-       docker run \n
+       docker run \
          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
