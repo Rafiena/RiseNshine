@@ -9,10 +9,10 @@ on:
     - cron: '0 0 * * 0'
 
 jobs:
-  CodeQL-Build:
+  Code-Build:
 
     strategy:
-      fail-fast: false
+      fail-fast: true
 
 
     # CodeQL runs on ubuntu-latest, windows-latest, and macos-latest
