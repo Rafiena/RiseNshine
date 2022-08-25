@@ -9,7 +9,7 @@ on:
 jobs:
   build: 
 
-    runs-on: Debian-latest
+    runs-on: Debian
 
     steps:
     - uses: actions/checkout@v2
