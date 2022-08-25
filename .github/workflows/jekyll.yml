@@ -9,7 +9,7 @@ on:
 jobs:
   build: 
 
-    runs-on: Kubuntu-latest
+    runs-on: Debian-latest
 
     steps:
     - uses: actions/checkout@v2
