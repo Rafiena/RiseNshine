@@ -30,7 +30,7 @@ jobs:
         
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Python).
     # If this step fails, then you should remove it and run the build manually (see below)
-    - name: Automatic
+    - name: Auto-build
       uses: github/codeql-action/autobuild@v2
 
     - name: Perform CodeQL Analysis
